@@ -8,7 +8,7 @@ public class test {
     @Test
     public void startBrowser(){
         ChromeOptions options = new ChromeOptions();
-        options.setBrowserVersion("116");
+        options.setBrowserVersion("115");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
         driver.quit();
